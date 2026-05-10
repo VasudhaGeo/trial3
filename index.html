@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vasudha Singh | Portfolio</title>
+  <link rel="stylesheet" href="asset/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Vasudha Singh</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm Vasudha</h1>
+      <p>Geospatial Mentor | GIS Developer | Python & Web GIS Trainer</p>
+      <a href="#projects" class="btn">View My Work</a>
+      <button onclick ="newalpha()"> Change Text </button>
+ 
+    </div>
+    <div class="hero-image">
+      <img src="asset/GIS-Layers.jpg" alt="Profile Photo">
+    </div>
+  </header>
+
+  <section class="section" id="about">
+    <h2 id ="about">About Me</h2>
+    <p>
+      I work at the intersection of GIS, Python, Web GIS, and geospatial problem-solving.
+      I mentor students and help them move from fundamentals to real-world applications,
+      portfolio building, and project development.
+    </p>
+    <p id="output"> </p>
+
+
+    <!-- ---User Input----- -->
+    <input type="text" id = "random" placeholder ="Enter Your name"> 
+         <button id ="myBtn"> Show</button>
+
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">GIS</div>
+      <div class="skill">Python</div>
+      <div class="skill">QGIS</div>
+      <div class="skill">ArcGIS</div>
+      <div class="skill">Web GIS</div>
+      <div class="skill">GeoAI</div>
+      <div class="skill">React</div>
+      <div class="skill">Remote Sensing</div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Flood Susceptibility Mapping</h3>
+        <p>Automated GIS workflow using PyQGIS, raster processing, and weighted overlay methods.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Web GIS Dashboard</h3>
+        <p>Interactive map-based dashboards using modern GIS web technologies.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Student Training Programs</h3>
+        <p>Designed and delivered GIS, Python, and portfolio-building learning tracks.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: vasudha@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    <button id="helloBtn">Say Hello</button>
+      <button id="colorBtn">Change color</button>
+    <p id="message"> </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Vasudha Singh | Built with HTML, CSS, and JavaScript</p>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
